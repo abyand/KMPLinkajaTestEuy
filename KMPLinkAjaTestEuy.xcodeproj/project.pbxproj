@@ -16,6 +16,7 @@
 		BED26E5026F83E8F007C0958 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BED26E4E26F83E8F007C0958 /* Main.storyboard */; };
 		BED26E5226F83E90007C0958 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BED26E5126F83E90007C0958 /* Assets.xcassets */; };
 		BED26E5526F83E90007C0958 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BED26E5326F83E90007C0958 /* LaunchScreen.storyboard */; };
+		BED26E5E26F843D1007C0958 /* KMPLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED26E5D26F843D1007C0958 /* KMPLib.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		BED26E5126F83E90007C0958 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BED26E5426F83E90007C0958 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BED26E5626F83E90007C0958 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BED26E5D26F843D1007C0958 /* KMPLib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KMPLib.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				BED26E2926F83D4C007C0958 /* KMPLinkAjaTestEuy.h */,
 				BED26E2A26F83D4C007C0958 /* Info.plist */,
+				BED26E5D26F843D1007C0958 /* KMPLib.swift */,
 			);
 			path = KMPLinkAjaTestEuy;
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 				TargetAttributes = {
 					BED26E2526F83D4C007C0958 = {
 						CreatedOnToolsVersion = 12.3;
+						LastSwiftMigration = 1230;
 					};
 					BED26E2E26F83D4C007C0958 = {
 						CreatedOnToolsVersion = 12.3;
@@ -262,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BED26E5E26F843D1007C0958 /* KMPLib.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +443,7 @@
 		BED26E3B26F83D4C007C0958 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -453,6 +459,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.myansproduction.KMPLinkAjaTestEuy;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -461,6 +468,7 @@
 		BED26E3C26F83D4C007C0958 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -484,6 +492,7 @@
 		BED26E3E26F83D4C007C0958 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = KMPLinkAjaTestEuyTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -501,6 +510,7 @@
 		BED26E3F26F83D4C007C0958 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = KMPLinkAjaTestEuyTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
