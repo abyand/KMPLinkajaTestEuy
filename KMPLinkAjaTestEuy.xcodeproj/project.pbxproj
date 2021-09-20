@@ -10,6 +10,12 @@
 		BED26E3026F83D4C007C0958 /* KMPLinkAjaTestEuy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BED26E2626F83D4C007C0958 /* KMPLinkAjaTestEuy.framework */; };
 		BED26E3526F83D4C007C0958 /* KMPLinkAjaTestEuyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED26E3426F83D4C007C0958 /* KMPLinkAjaTestEuyTests.swift */; };
 		BED26E3726F83D4C007C0958 /* KMPLinkAjaTestEuy.h in Headers */ = {isa = PBXBuildFile; fileRef = BED26E2926F83D4C007C0958 /* KMPLinkAjaTestEuy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BED26E4926F83E8F007C0958 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED26E4826F83E8F007C0958 /* AppDelegate.swift */; };
+		BED26E4B26F83E8F007C0958 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED26E4A26F83E8F007C0958 /* SceneDelegate.swift */; };
+		BED26E4D26F83E8F007C0958 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED26E4C26F83E8F007C0958 /* ViewController.swift */; };
+		BED26E5026F83E8F007C0958 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BED26E4E26F83E8F007C0958 /* Main.storyboard */; };
+		BED26E5226F83E90007C0958 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BED26E5126F83E90007C0958 /* Assets.xcassets */; };
+		BED26E5526F83E90007C0958 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BED26E5326F83E90007C0958 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +35,14 @@
 		BED26E2F26F83D4C007C0958 /* KMPLinkAjaTestEuyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KMPLinkAjaTestEuyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BED26E3426F83D4C007C0958 /* KMPLinkAjaTestEuyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KMPLinkAjaTestEuyTests.swift; sourceTree = "<group>"; };
 		BED26E3626F83D4C007C0958 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BED26E4626F83E8F007C0958 /* KMPLinkAjaExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KMPLinkAjaExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BED26E4826F83E8F007C0958 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BED26E4A26F83E8F007C0958 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BED26E4C26F83E8F007C0958 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BED26E4F26F83E8F007C0958 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BED26E5126F83E90007C0958 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BED26E5426F83E90007C0958 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BED26E5626F83E90007C0958 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +61,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BED26E4326F83E8F007C0958 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -55,6 +76,7 @@
 			children = (
 				BED26E2826F83D4C007C0958 /* KMPLinkAjaTestEuy */,
 				BED26E3326F83D4C007C0958 /* KMPLinkAjaTestEuyTests */,
+				BED26E4726F83E8F007C0958 /* KMPLinkAjaExample */,
 				BED26E2726F83D4C007C0958 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +86,7 @@
 			children = (
 				BED26E2626F83D4C007C0958 /* KMPLinkAjaTestEuy.framework */,
 				BED26E2F26F83D4C007C0958 /* KMPLinkAjaTestEuyTests.xctest */,
+				BED26E4626F83E8F007C0958 /* KMPLinkAjaExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,6 +107,20 @@
 				BED26E3626F83D4C007C0958 /* Info.plist */,
 			);
 			path = KMPLinkAjaTestEuyTests;
+			sourceTree = "<group>";
+		};
+		BED26E4726F83E8F007C0958 /* KMPLinkAjaExample */ = {
+			isa = PBXGroup;
+			children = (
+				BED26E4826F83E8F007C0958 /* AppDelegate.swift */,
+				BED26E4A26F83E8F007C0958 /* SceneDelegate.swift */,
+				BED26E4C26F83E8F007C0958 /* ViewController.swift */,
+				BED26E4E26F83E8F007C0958 /* Main.storyboard */,
+				BED26E5126F83E90007C0958 /* Assets.xcassets */,
+				BED26E5326F83E90007C0958 /* LaunchScreen.storyboard */,
+				BED26E5626F83E90007C0958 /* Info.plist */,
+			);
+			path = KMPLinkAjaExample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +173,23 @@
 			productReference = BED26E2F26F83D4C007C0958 /* KMPLinkAjaTestEuyTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		BED26E4526F83E8F007C0958 /* KMPLinkAjaExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BED26E5726F83E90007C0958 /* Build configuration list for PBXNativeTarget "KMPLinkAjaExample" */;
+			buildPhases = (
+				BED26E4226F83E8F007C0958 /* Sources */,
+				BED26E4326F83E8F007C0958 /* Frameworks */,
+				BED26E4426F83E8F007C0958 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KMPLinkAjaExample;
+			productName = KMPLinkAjaExample;
+			productReference = BED26E4626F83E8F007C0958 /* KMPLinkAjaExample.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -149,6 +203,9 @@
 						CreatedOnToolsVersion = 12.3;
 					};
 					BED26E2E26F83D4C007C0958 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					BED26E4526F83E8F007C0958 = {
 						CreatedOnToolsVersion = 12.3;
 					};
 				};
@@ -168,6 +225,7 @@
 			targets = (
 				BED26E2526F83D4C007C0958 /* KMPLinkAjaTestEuy */,
 				BED26E2E26F83D4C007C0958 /* KMPLinkAjaTestEuyTests */,
+				BED26E4526F83E8F007C0958 /* KMPLinkAjaExample */,
 			);
 		};
 /* End PBXProject section */
@@ -184,6 +242,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BED26E4426F83E8F007C0958 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BED26E5526F83E90007C0958 /* LaunchScreen.storyboard in Resources */,
+				BED26E5226F83E90007C0958 /* Assets.xcassets in Resources */,
+				BED26E5026F83E8F007C0958 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,6 +273,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BED26E4226F83E8F007C0958 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BED26E4D26F83E8F007C0958 /* ViewController.swift in Sources */,
+				BED26E4926F83E8F007C0958 /* AppDelegate.swift in Sources */,
+				BED26E4B26F83E8F007C0958 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -214,6 +292,25 @@
 			targetProxy = BED26E3126F83D4C007C0958 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BED26E4E26F83E8F007C0958 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BED26E4F26F83E8F007C0958 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BED26E5326F83E90007C0958 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BED26E5426F83E90007C0958 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		BED26E3826F83D4C007C0958 /* Debug */ = {
@@ -418,6 +515,42 @@
 			};
 			name = Release;
 		};
+		BED26E5826F83E90007C0958 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KMPLinkAjaExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.myansproduction.KMPLinkAjaExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BED26E5926F83E90007C0958 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KMPLinkAjaExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.myansproduction.KMPLinkAjaExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -444,6 +577,15 @@
 			buildConfigurations = (
 				BED26E3E26F83D4C007C0958 /* Debug */,
 				BED26E3F26F83D4C007C0958 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BED26E5726F83E90007C0958 /* Build configuration list for PBXNativeTarget "KMPLinkAjaExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BED26E5826F83E90007C0958 /* Debug */,
+				BED26E5926F83E90007C0958 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
